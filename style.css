@@ -1,0 +1,164 @@
+	img {
+		max-width: 100%;
+	}
+	
+	body {
+		font-family: 'Droid Sans', sans-serif;
+		font-size: 100%;
+		background: url(../img/140919_mailapp_cnt.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+	}
+	
+	.login-head {
+		padding: 2em 0;
+		background: chartreuse;
+		position: relative;
+	}
+	
+	.login-head h1 {
+		color: #fff;
+		font-size: 1.5em;
+		text-align: center;
+		margin: 0 23px;
+	}
+	
+	form {
+		padding: 2em 2em 5em 2em;
+		background: #F2F2F2;
+	}
+	
+	form li {
+		border: 2px ridge rgba(187, 185, 189, 0.11);
+		border-radius: 0.3em;
+		-webkit-border-radius: 0.3em;
+		-moz-border-radius: 0.3em;
+		-o-border-radius: 0.3em;
+		list-style: none;
+		margin-bottom: 11px;
+	}
+	
+	input[type="text"],
+	input[type="password"] {
+		font-family: 'Droid Sans', sans-serif;
+		width: 70%;
+		padding: 0.5em 2em 0.5em 1em;
+		color: #B8B8B8;
+		font-size: 20px;
+		outline: none;
+		background: none;
+		border: none;
+	}
+	
+	input[type="text"]:hover,
+	input[type="password"]:hover {
+		color: #9E61A3;
+	}
+	
+	.submit h4 a {
+		float: left;
+		font-size: 16px;
+		color: #999;
+		font-weight: 400;
+		font-family: 'Droid Sans', sans-serif;
+		margin-top: 15px;
+		margin-left: 21px;
+	}
+	
+	.submit h4 a:hover {
+		color: #3762BC;
+	}
+	
+	.clear {
+		padding-right: 1em;
+	}
+	
+	.submit {
+		padding-top: 2em;
+	}
+	
+	input[type="submit"] {
+		float: left;
+		color: #fff;
+		cursor: pointer;
+		font-weight: 900;
+		outline: none;
+		font-family: 'Raleway', sans-serif;
+		padding: 12px 0px;
+		width: 35%;
+		font-size: 18px;
+		background: #6C496F;
+		border: 2px solid #6C496F;
+		border-radius: 0.5em;
+		-webkit-border-radius: 0.5em;
+		-moz-border-radius: 0.5em;
+		-o-border-radius: 0.5em;
+	}
+	
+	
+	
+	.message.warning {
+		margin: 10em 50em;
+		width: 30%;
+	}
+	
+	{
+		.message.warning {
+			margin: 10em auto 0;
+			width: 9%;
+		}
+		.login-head {
+			padding: 2.45em 0;
+		}
+		.login-head h1 {
+			font-size: 1.15em;
+		}
+		input[type="text"],
+		input[type="password"] {
+			font-size: 16px;
+		}
+		form {
+			padding: 1.5em 1.5em;
+		}
+		input[type="submit"] {
+			float: none;
+			padding: 11px 0px;
+			width: 52%;
+			font-size: 15px;
+		}
+		.submit h4 {
+			margin-top: 15px;
+			margin-bottom: 20px;
+		}
+	}
+	
+	a {
+		text-decoration: none;
+		color: #959595;
+	}
+	
+	a:hover {
+		color: #626262;
+	}
+	
+	.unvisi {
+		visibility: hidden;
+	}
+	
+	p {
+		text-align: center;
+	}
+	
+	.s1 {
+		font-family: "微软雅黑";
+		font-size: 22px;
+	}
+	
+	.footer {
+		text-align: center;
+		padding-bottom: 10em;
+	}
+	
+	.section {}
